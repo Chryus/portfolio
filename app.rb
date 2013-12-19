@@ -7,12 +7,6 @@ end
 
 module Name
   class App < Sinatra::Application
-    
-    #configure
-    configure do
-      set :root, File.dirname(__FILE__)
-      set :public_folder, 'public'
-    end
 
     #routes
     get '/' do
