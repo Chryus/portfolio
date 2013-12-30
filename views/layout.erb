@@ -4,8 +4,17 @@
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
   </head>
   <body>
-    <div class="container-fluid">
-      <%= yield %>
-    </div>
+  	<nav>
+  		<h2>Chris Haack</h2>
+		  <ul>
+		    <li><a href="/about">About</a></li>
+		    <li><a href="/contact">Contact</a></li>
+		    <li><a href="/social">Social</a></li>
+		    <li><a href="/apps">Apps</a></li>
+		  </ul>
+		</nav>
+	  <div class="container-fluid">
+	    <%= yield %>
+	  </div>
   </body>
 </html>
