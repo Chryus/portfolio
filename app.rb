@@ -13,21 +13,21 @@ module Name
       erb :index
     end
 
-    get '/about'
+    get '/about' do
      	erb :about
    	end
 
-   	get '/contact'
+   	get '/contact' do
    		erb :contact
    	end
 
-   	get '/social'
+   	get '/social' do
    		erb :social
    	end
 
-   	get '/apps'
+   	get '/apps' do
    		erb :apps
    	end
-   	
+
   end
 end

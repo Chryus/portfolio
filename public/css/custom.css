@@ -1,3 +1,29 @@
+
+nav {
+	text-align: center;
+	background: #e0e2e6;
+	border-radius: 5px;
+}
+
+address {
+	display: inline;
+}
+
+#email {
+	text-decoration: none;
+}
+
 nav ul li {
+	display: inline;
+	position: relative;
+	padding: 10px;
+}
+
+.cubes {
 	display: inline-block;
+	padding: 51px;
+	background: #e0e2e6;
+	border-radius: 5px;
+	width: 25%;
+	width: 40%;
 }
