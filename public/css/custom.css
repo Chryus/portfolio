@@ -19,11 +19,17 @@ nav ul li {
 	padding: 10px;
 }
 
+.cube #left {
+
+}
+
+.cube #right {
+
+}
+
 .cubes {
 	display: inline-block;
 	padding: 51px;
 	background: #e0e2e6;
 	border-radius: 5px;
-	width: 48%;
-	width: 48%;
 }
