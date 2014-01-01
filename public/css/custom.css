@@ -32,24 +32,33 @@ nav ul {
 }
 
 #middle {
-	width: 67%;
-	padding-left: 1px;
-	margin-left: 4.5px;
+  width: 67%;
+  padding-left: 1px;
+  margin-left: 4.5px;
 }
 
 #right {
-	width: 10%;
-	float: right;
-	padding-left: 10px;
-	background-color: rgba(175, 58, 58, 1.0);
+  width: 10%;
+  float: right;
+  padding-left: 10px;
+  background-color: rgba(175, 58, 58, 1.0);
+}
+
+#bottom {
+	height: 30px;
+	background: linear-gradient(to right, yellow, black);
+	opacity: .26;
+	clear: both;
+	margin-top: -5px;
+	display: block;
 }
 
 .cubes {
-	display: inline-block;
-	height: 500px;
-	margin: 5px 0;
-	background: #e0e2e6;
-	border-radius: 5px;
+  display: inline-block;
+  height: 500px;
+  margin: 5px 0;
+  background: #e0e2e6;
+  border-radius: 5px;
 }
 
 address {
