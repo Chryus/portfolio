@@ -1,5 +1,6 @@
 body {
 	font-family: Futura, sans-serif;
+	background-color: rgba(0, 0, 0, 0.75);
 }
 
 h2 {
@@ -30,15 +31,22 @@ nav ul {
 
 }
 
-#right {
-	width: 78%;
-	float: right;
+#middle {
+	width: 67%;
 	padding-left: 1px;
+	margin-left: 4.5px;
+}
+
+#right {
+	width: 10%;
+	float: right;
+	padding-left: 10px;
+	background-color: rgba(175, 58, 58, 1.0);
 }
 
 .cubes {
 	display: inline-block;
-	height: 350px;
+	height: 500px;
 	margin: 5px 0;
 	background: #e0e2e6;
 	border-radius: 5px;
