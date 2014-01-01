@@ -29,13 +29,13 @@ nav ul {
 }
 
 #right {
-	width: 71%;
+	width: 72%;
 }
 
 .cubes {
 	display: inline-block;
 	height: 350px;
-	margin: 5px auto;
+	margin: 5px 10px;
 	padding: 10px;
 	background: #e0e2e6;
 	border-radius: 5px;
