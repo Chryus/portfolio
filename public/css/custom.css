@@ -71,8 +71,8 @@ nav ul {
 }
 
 .cubes:hover, .cubes:focus {
-	background: #CCFFFF;
-	opacity: .40;
+	background: #CCE5FF;
+	opacity: .75;
 }
 
 address {
