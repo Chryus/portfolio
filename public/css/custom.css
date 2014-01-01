@@ -10,6 +10,7 @@ nav {
 	position: relative;
 	background: #e0e2e6;
 	border-radius: 5px;
+	padding: 1px 0 10px 0;
 }
 
 nav li {
