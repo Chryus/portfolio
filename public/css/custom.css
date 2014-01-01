@@ -3,6 +3,15 @@ body {
 	background-color: rgba(0, 0, 0, 0.75);
 }
 
+a {
+	text-decoration: none;
+	color: #4c0099;
+}
+
+a:hover{
+	color: #190033;
+}
+
 h2 {
 	margin: auto;
 }
@@ -59,6 +68,11 @@ nav ul {
   margin: 5px 0;
   background: #e0e2e6;
   border-radius: 5px;
+}
+
+.cubes:hover, .cubes:focus {
+	background: #CCFFFF;
+	opacity: .40;
 }
 
 address {
