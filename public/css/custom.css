@@ -50,6 +50,7 @@ nav ul {
   width: 10%;
   float: right;
   padding-left: 10px;
+  transition: background-color 1s ease-in-out;
   background-color: rgba(175, 58, 58, 1.0);
 }
 
