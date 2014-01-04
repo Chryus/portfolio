@@ -10,23 +10,23 @@ module Name
 
     #routes
     get '/' do
-      erb :index
+      haml :index
     end
 
     get '/about' do
-     	erb :about
+     	haml :about
    	end
 
    	get '/contact' do
-   		erb :contact
+   		haml :contact
    	end
 
    	get '/social' do
-   		erb :social
+   		haml :social
    	end
 
    	get '/apps' do
-   		erb :apps
+   		haml :apps
    	end
 
   end
