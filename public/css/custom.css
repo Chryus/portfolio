@@ -1,26 +1,27 @@
-body {
-	font-family: Futura, sans-serif;
-	background-color: rgba(0, 0, 0, 0.75);
+html, body {
+        font-family: Futura, sans-serif;
+        background-color: rgba(0, 0, 0, 0.75);
+        height: 100%;
 }
 
 a {
-	text-decoration: none;
-	color: #4c0099;
+        text-decoration: none;
+        color: #4c0099;
 }
 
 a:hover{
-	color: #190033;
+        color: #190033;
 }
 
 h2 {
-	margin: auto;
+        margin: auto;
 }
 
 nav {
-	position: relative;
-	background: #e0e2e6;
-	border-radius: 5px;
-	padding: 1px 0 10px 0;
+  position: relative;
+  background: #e0e2e6;
+  border-radius: 5px;
+  padding: 1px 0 10px 0;
 }
 
 nav li {
@@ -33,10 +34,15 @@ nav ul {
   text-align: center;
 }
 
+.container {
+	height: 100%;
+	position: relative;
+}
+
 #left {
-	width: 21%;
-	float: left;
-	padding-right: 2px;
+  width: 21%;
+  float: left;
+  padding-right: 2px;
 
 }
 
@@ -54,32 +60,46 @@ nav ul {
 }
 
 #bottom {
-	height: 30px;
-	background: linear-gradient(to right, yellow, black);
-	opacity: .26;
-	clear: both;
-	margin-top: -5px;
-	display: block;
+  height: 4%;
+  width: 98.5%;
+  background: linear-gradient(to right, yellow, black);
+  opacity: .26;
+  position: absolute;
+  bottom: -18%;
+  margin-bottom: 5px;
+  display: block;
+  border-radius: 5px;
+
+/*  position: absolute;*/
 }
 
 .cubes {
   display: inline-block;
   -webkit-transition: background-color .7s ease-in-out;
-  height: 515px;
+  height: 99%;
   margin: 5px 0;
   background: #e0e2e6;
   border-radius: 5px;
 }
 
 .cubes:hover, .cubes:focus {
-	background: #CCE5FF;
-	opacity: .75;
+        background: #CCE5FF;
+        opacity: .75;
 }
 
 address {
-	display: inline;
+        display: inline;
 }
 
 #email {
-	text-decoration: none;
+        text-decoration: none;
+}
+
+
+/* ---------------------------------------
+media queries
+------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
 }
