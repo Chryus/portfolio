@@ -1,25 +1,30 @@
 html, body {
-        font-family: Futura, sans-serif;
-        background-color: rgba(0, 0, 0, 0.75);
-        height: 100%;
+  font-family: Futura, sans-serif;
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 100%;
+  width: 100%;
+}
+
+#header {
+  color: #B06900;
 }
 
 a {
-        text-decoration: none;
-        color: #4c0099;
+  text-decoration: none;
+  color: #4c0099;
 }
 
 a:hover{
-        color: #190033;
+  color: #190033;
 }
 
 h2 {
-        margin: auto;
+  margin: auto;
 }
 
 nav {
   position: relative;
-  background: #e0e2e6;
+  background: #263248;
   border-radius: 5px;
   padding: 1px 0 10px 0;
 }
@@ -35,42 +40,44 @@ nav ul {
 }
 
 .container {
-	height: 100%;
-	position: relative;
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
 }
 
 #left {
+  position: relative;
   width: 21%;
   float: left;
   padding-right: 2px;
-
 }
 
 #middle {
+  position: relative;
   width: 67%;
   padding-left: 1px;
   margin-left: 4.5px;
 }
 
 #right {
+  position: relative;
   width: 10%;
   float: right;
-  padding-left: 10px;
-  background-color: rgba(175, 58, 58, 1.0);
+  padding-left: 12.5px;
 }
 
 #bottom {
-  height: 4%;
+  height: 7%;
   width: 98.5%;
-  background: linear-gradient(to right, yellow, black);
+  background: linear-gradient(to right, #FF9800, black);
   opacity: .26;
-  position: absolute;
-  bottom: -18%;
+  position: relative;
   margin-bottom: 5px;
   display: block;
   border-radius: 5px;
-
-/*  position: absolute;*/
+  clear: both;
 }
 
 .cubes {
@@ -78,28 +85,19 @@ nav ul {
   -webkit-transition: background-color .7s ease-in-out;
   height: 99%;
   margin: 5px 0;
-  background: #e0e2e6;
+  background: black;
   border-radius: 5px;
 }
 
 .cubes:hover, .cubes:focus {
-        background: #CCE5FF;
-        opacity: .75;
+  background: #CCE5FF;
+  opacity: .75;
 }
 
 address {
-        display: inline;
+  display: inline;
 }
 
 #email {
-        text-decoration: none;
-}
-
-
-/* ---------------------------------------
-media queries
-------------------------------------------*/
-
-@media screen and (max-width: 480px) {
-
+  text-decoration: none;
 }
